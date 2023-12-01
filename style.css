@@ -61,6 +61,13 @@ body {
 }
 
 
+.sticked_element {
+
+}
+
+.sticked_element img {
+    
+}
 
 
 @media screen and (min-width: 1400px) {
@@ -125,7 +132,18 @@ body {
     margin-right: 16px;
 }
 
+.sticked_element {
+
 }
+
+.sticked_element img {
+    
+}
+
+
+}
+
+
 
 @media only screen and (max-width: 768px) {
 
@@ -186,6 +204,13 @@ body {
 .mic_icon img {
     height: 25px;
     margin-right: 16px;
+}
+
+.sticked_element {display: flex;align-items: center;padding: 10px;border: 1px solid #3193ed;color: #3193ed;border-radius: 22px;width: 200px;position: absolute;bottom: 28px;left: 76px;}
+
+.sticked_element img {
+    height: 20px;
+    margin-right: 10px;
 }
 
 
