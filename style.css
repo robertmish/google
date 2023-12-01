@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto:wght@300;400&display=swap');
 
 
+
 html {
     font-family: 'Poppins', sans-serif;
 
@@ -61,3 +62,131 @@ body {
 
 
 
+
+@media screen and (min-width: 1400px) {
+ 
+  
+
+html {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding: 0;
+}
+
+
+.header {display: flex;justify-content: end;padding-top: 20px;}
+.menu {display: flex;width: 280px;justify-content: space-around;align-items: center;}
+.menu_button {font-size: 14px;}
+
+.options_btn {
+
+}
+
+.options_btn img {height: 21px;margin-left: 5px;}
+
+
+
+
+.user_photo {
+
+}
+
+.user_photo img {
+    height: 41px;
+}
+.cover_logo {width: 400px;margin: 0 auto;margin-top: 100px;}
+
+.cover_logo img {width: 336px;margin-bottom: 50px;}
+
+.search_box {display: flex;box-shadow: 0px 6px 5px 4px #dedede;border-radius: 20px;width: 590px;margin: 0 auto;height: 42px;}
+.search_icon {display: flex;align-items: center;}
+
+.search_icon img {
+    height: 21px;
+    margin-left: 10px;
+}
+.search_input {width: -webkit-fill-available;}
+
+.search_bar {border: none;width: -webkit-fill-available;font-size: 16px;margin-top: 9px;margin-left: 6px;}
+.mic_icon {display: flex;align-items: center;}
+
+.mic_icon img {
+    height: 25px;
+    margin-right: 16px;
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+
+
+html {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding: 0;
+}
+
+
+.header {display: flex;padding-top: 20px;justify-content: flex-end;width: 100%;}
+.menu {display: flex;width: 253px;align-items: center;}
+.menu_button {font-size: 14px;}
+
+.options_btn {
+
+}
+
+.options_btn img {height: 21px;margin-left: 5px;}
+
+
+
+
+.user_photo {
+
+}
+
+.user_photo img {
+    height: 41px;
+}
+.cover_logo {width: 81%;margin: 0 auto;margin-top: 100px;}
+
+.cover_logo img {width: 100%;margin-bottom: 50px;}
+
+.search_box {display: flex;box-shadow: 0px 6px 5px 4px #dedede;border-radius: 20px;width: 84%;margin: 0 auto;height: 42px;}
+.search_icon {display: flex;align-items: center;}
+
+.search_icon img {
+    height: 21px;
+    margin-left: 10px;
+}
+.search_input {width: -webkit-fill-available;}
+
+.search_bar {border: none;width: -webkit-fill-available;font-size: 16px;margin-top: 9px;margin-left: 6px;}
+.mic_icon {display: flex;align-items: center;}
+
+.mic_icon img {
+    height: 25px;
+    margin-right: 16px;
+}
+
+
+}
